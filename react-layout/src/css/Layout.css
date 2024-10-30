@@ -1,0 +1,19 @@
+#main-nv {
+    background:pink;
+}
+
+#main-nav li {
+    list-style-type: none;
+}
+
+.hide-small {
+    display:none;
+}
+
+/*Media Query for larger screens*/
+@media only screen and (min-width:760px) {
+
+    .hide-small {
+        display:flex;
+    }
+}
